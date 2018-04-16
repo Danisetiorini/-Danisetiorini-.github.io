@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Adani Setiorini's Personal Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+
+    body {
+        background: url('1491378068648.jpg');
+    }
+    #myNavbar{
+      background: url('Capture.JPG');
+      font: 20px Montserrat, sans-serif;
+      font-weight: bold;
+      line-height: 1.8;
+      width: auto;
+      color: black;
+    }
+    p {font-size: 16px;}
+    .margin {margin-bottom: 45px;}
+
+    .bg-1 {
+      background-color:white;
+      border: 4px #B01A6E dashed;
+      width: auto;
+      float:right;
+      width: 100%;
+    }
+    .bg-2 {
+        background:rgba(0,0,0,0.4);
+        color: #ffffff;
+    }
+    .bg-3 {
+        background-color: #ffffff; /* White */
+        color: #555555;
+    }
+    .bg-4 {
+        background: url('Capture.JPG');
+        color: #555555;
+    }
+    .container-fluid {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .navbar {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border: 0;
+        border-radius: 0;
+        margin-bottom: 0;
+        font-size: 12px;
+        letter-spacing: 5px;
+    }
+    .navbar-nav  li a:hover {
+        color: #1abc9c !important;
+    }
+    function changeImage(){
+        document.images["jsbutton"].src= "top.png";
+        return true;
+    }
+    </style>
+  </head>
+  <body>
+  <script>
+    var pesan = "Welcome to my Blog!";
+    alert(pesan);
+  </script>
+  <!-- Navbar -->
+  <div class="w3-top">
+    <div class="w3-bar" id="myNavbar">
+      <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+        <i class="fa fa-bars"></i>
+      </a>
+      <a class="w3-bar-item w3-button" href="#">ADANI SETIORINI</a>
+      <ul class="w3-right">
+      <a href="#home" class="w3-bar-item w3-button">HOME</a>
+      <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT ME</a>
+      <a href="#latest" class="w3-bar-item w3-button" onclick="toggleFunction()">LATEST FROM THE BLOG</a>
+      <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+      </a>
+    </ul>
+    </div>
+    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+      <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT ME</a>
+      <a href="#latest" class="w3-bar-item w3-button" onclick="toggleFunction()">LATEST FROM THE BLOG</a>
+      <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    </div>
+  </div>
+
+  <!-- First Container -->
+  <section class="jumbotron">
+    <div class="container-fluid bg-1" id="home">
+      <div>
+        <table>
+          <thead>
+            <tbody>
+              <tr>
+              </tr>
+            </tbody>
+            <tr>
+              <th width="10"></th>
+              <th width="10"></th>
+              <tr>
+                <td>
+                  <img src="Capture.JPG" height="410" width="100">
+                  <img src="1486810231411.jpg" height="400" width="240">
+                  <td>
+                    <right>
+                      <p>
+                        <font size="30" font face="Cooper Std Black" color="#4555a8"> Adani Setiorini </font>
+                        <br>
+                        <font size="5" font face="Cooper Std Black" align="center" color="#5bcc8e"> |  Colleger  |  Daughter  |  Enthusiasts  |  Wanna-be Entrepreneurs </font></p>
+                        <br>
+                      </p>
+                      <br>
+                    </right>
+                  </td>
+              </tr>
+          </thead>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Second Container -->
+  <div class="container-fluid bg-2 text-center" id="about">
+    <h3 class="margin" data-aos="zoom-in"><strong>About Me</strong></h3><br>
+    <div class="row">
+        <figure class="col-sm-5">
+          <fieldset>
+            <legend><h3><strong>Basic Information</strong></h3></legend>
+            <table>
+                <!-- Table Row -->
+                <thead>
+                  <tr>
+                    <!-- Table Head -->
+                    <th width="300"></th>
+                    <th width="300"></th>
+                  </tr>
+                </thead>
+              <tbody>
+                <tr>
+                  <td align= "center"><h4>Place and Date of Birth</h4></td>
+                  <td>:  Balikpapan, 23 September 1998</td>
+                </tr>
+                <tr>
+                  <td align="center"><h4>Address</h4></td>
+                  <td>:  Komp. Klaus Reppe Km.7 Blok 3/21 Balikpapan Utara</td>
+                </tr>
+                <tr>
+                  <td align="center"><h4>Mobile No.</h4></td>
+                  <td>:  085390972762</td>
+                </tr>
+                <tr>
+                  <td align="center"><h4>Email</h4></td>
+                  <td></strong><a href="danisetiorini98@gmail.com">  danisetiorini98@gmail.com</a></td>
+                </tr>
+                <tr>
+                  <td align="center"><h4>Instagram</h4></td>
+                  <td></strong><a href="https://www.instagram.com/danisetiorini/"> @Danisetiorini</a></td>
+                  <br>
+                </tr>
+              </tbody>
+            </table>
+          </fieldset>
+    	  </figure>
+        <figure class="col-sm-5">
+          <fieldset>
+            <legend><h3><strong>Achievement</strong></h3></legend>
+            <ul><dl>
+              <strong><dt><li>2015</li></dt></strong>
+              <dd>3rd place English Debate Competition by LP3I</dd>
+              <br>
+            </dl></ul>
+            <ul><dl>
+              <strong><dt><li>2015</li></dt></strong>
+              <dd>3rd place English Debate Competition by Universitas Balikpapan</dd>
+              <br>
+            </dl></ul>
+            <ul><dl>
+              <strong><dt><li>2017</li></dt></strong>
+              <dd>4th place Internet of Things Competition by Universitas Gadjah Mada</dd>
+              <br>
+            </dl></ul>
+          </fieldset>
+        </figure>
+        <figure class="col-sm-5">
+          <fieldset>
+            <legend><h3><strong>Education</strong></h3></legend>
+            <ul><dl>
+              <strong><dt><li>2004 - 2005</li></dt></strong>
+              <dd>TK Tunas Harapan II Balikpapan</dd>
+              <br>
+            </dl></ul>
+            <ul><dl>
+              <strong><dt><li>2005 - 2011</li></dt></strong>
+              <dd>SD Negeri 004 Balikpapan Utara</dd>
+              <br>
+            </dl></ul>
+            <ul><dl>
+              <strong><dt><li>2011 - 2013</li></dt></strong>
+              <dd>SMP Negeri 3 Balikpapan Utara</dd>
+              <br>
+            </dl></ul>
+            <ul><dl>
+              <strong><dt><li>2013 - 2016</li></dt></strong>
+              <dd>SMA Negeri 2 Balikpapan Utara</dd>
+              <br>
+            </dl></ul>
+            <ul><dl>
+              <strong><dt><li>2016 - Present</li></dt></strong>
+              <dd>Kalimantan Institute of Technology - Information System</dd>
+            </dl></ul>
+          </fieldset>
+        </figure>
+        <figure class="col-sm-5">
+          <fieldset>
+            <legend><h3><strong>Experiences</strong></h3></legend>
+            <ul><dl>
+              <strong><dt><li>2014 - 2016</li></dt></strong>
+              <dd>Member of Smada English Debate Team</dd>
+              <br>
+            </dl></ul>
+            <ul><dl>
+              <strong><dt><li>2016 - Present</li></dt></strong>
+              <dd>Member of Koperasi Mahasiswa ITK</dd>
+              <br>
+            </dl></ul>
+            <ul><dl>
+              <strong><dt><li>2016</li></dt></strong>
+              <dd>Training Participants of LKMM Pra TD 2 ITK</dd>
+              <br>
+            </dl></ul>
+            <ul><dl>
+              <strong><dt><li>2017</li></dt></strong>
+              <dd>Training Participants of LKMM TD 4 ITK</dd>
+              <br>
+            </dl></ul>
+            <ul><dl>
+              <strong><dt><li>2017</li></dt></strong>
+              <dd>Training Participants of LKMM Pelatihan Pemandu 2 ITK</dd>
+              <br>
+            </dl></ul>
+          </fieldset>
+        </figure>
+
+      </div>
+      <p class="w3-large w3-center w3-padding-16"><strong>Skills</strong></p>
+      <p class="w3-wide"></i>IT and Basic Office Software Packages</p>
+      <div class="w3-light-grey">
+        <div class="w3-container w3-padding-small w3-pink w3-center" style="width:88%">88%</div>
+      </div>
+      <p class="w3-wide"></i>Business Analysis</p>
+      <div class="w3-light-grey">
+        <div class="w3-container w3-padding-small w3-pink w3-center" style="width:80%">80%</div>
+      </div>
+      <p class="w3-wide"></i>Communication</p>
+      <div class="w3-light-grey">
+        <div class="w3-container w3-padding-small w3-pink w3-center" style="width:90%">90%</div>
+      </div>
+      <p class="w3-wide"></i>Leadership</p>
+      <div class="w3-light-grey">
+        <div class="w3-container w3-padding-small w3-pink w3-center" style="width:95%">95%</div>
+      </div>
+      </div>
+
+  <!-- Third Container (Grid) -->
+  <div class="container-fluid bg-3 text-center" id="latest">
+    <h3 class="margin" data-aos="zoom-in"><strong>Latest From the Blog</strong></h3><br>
+    <div class="row">
+      <div class="col-sm-4">
+        <img src="piza-3010062_1920.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+        <a href="https://www.google.co.id/search?q=food&rlz=1C1CHBD_enID768ID768&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjqpJCr-o_aAhVLp48KHT7jBOkQ_AUICigB&biw=1280&bih=566" title="FOOD"><h1>FOOD</h1></a>
+        <p>Bon appetit!</p>
+      </div>
+      <div class="col-sm-4">
+        <img src="COURSES.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+        <a href="https://www.youtube.com/user/kittendust" title="COURSES & SPEAKING"><h1>COURSES & SPEAKING</h1></a>
+        <p>Learn how to fluent in English</p>
+      </div>
+      <div class="col-sm-4">
+        <img src="TRAVEL.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+        <a href="https://www.google.co.id/search?rlz=1C1CHBD_enID768ID768&biw=1280&bih=566&tbm=isch&sa=1&ei=JAm8WvvQG8XzvASOwaeYCw&q=travel+in+kalimantan&oq=travel+IN+KALIMA&gs_l=psy-ab.3.0.0i24k1.5633.9946.0.11035.16.10.5.1.1.0.137.1155.0j10.10.0....0...1c.1.64.psy-ab..0.16.1176...0j0i67k1j0i30k1j0i8i30k1.0.eSKfi8RBcPU" title="TRAVEL"><h1>TRAVEL</h1></a>
+        <p>Adventure is worthwhile</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="container-fluid bg-4 text-center" id="contact">
+    <h3 class="margin" data-aos="zoom-in"><strong>Contact</strong></h3><br>
+    <form action="action_page.php">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Please fill out this field">
+
+      <label for="email">E-mail</label>
+      <input type="text" id="email" name="email" placeholder="Please fill out this field">
+
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+
+      <input type="submit" value="Submit">
+
+      <a href="#" onMouseOver="return changeImage()" ><img name="jsbutton" src="top.png" width="28" height="28" border="0"
+        alt="javascript button"></a>
+    </form>
+  </footer>
+  </body>
+</html>
